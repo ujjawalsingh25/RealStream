@@ -1,3 +1,15 @@
+// -------------------   Routes with auth folder  -------------------------------------------------------------
+// if folders as -->> auth/login/page.tsx
+// auth  -->> Needed 'auth' in the routes as localhost:3000/auth/register 
+
+// if folders as -->> (auth)/login/page.tsx
+// (auth)  -->> Won't needed the routes as localhost:3000/auth/register can directly use localhost:3000/register
+// ________________________________________________________________________________________________________________
+
+
+// layout.tsx  -->> Renders the actual content -> {children}
+// ________________________________________________________________________________________________________________
+
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
