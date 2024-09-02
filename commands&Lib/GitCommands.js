@@ -5,7 +5,7 @@
 //  -->>  git add .                                                                             | |
 //  -->>  git commit -m "Commits"                                                               | |
 //  -->>  git branch -M main                                                                    | |
-//  -->>  git remote add origin https://github.com/ujjawalsingh25/RealStream.  -->>  git        | |
+//  -->>  git remote add origin https://github.com/ujjawalsingh25/RealStream.git                | |
 //  -->>  git push -u origin main                                                               | |
 // _____________________________________________________________________________________________|_|
 // _____________________________________________________________________________________________|_|
