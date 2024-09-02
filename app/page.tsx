@@ -2,17 +2,17 @@
 // page.tsx / page.jsx are used to create Client Route   -->> like http://localhost:3000/folder where folder is the Client Route
 // route.tsx / route.jsx are used to create API Route  -->> {"foo": "bar"} API inside the 'localhost:3000//folder' pager
 
-import { Button } from "@/components/ui/button";
+import { UserButton } from "@clerk/nextjs";
 
-export default function Home() {
+export default function Page() {
   return (
     <>
-      <p className="text-red-500 font-bold mb-4">
-        Real-Stream
-      </p>
-      <Button size="lg" variant='outline'>
-        CLick Me
-      </Button>
+      <div className="flex flex-col gap-y-4">
+        <h1>Dashboard</h1>
+        {/* <UserButton 
+          afterSignOutUrl="/"
+        /> */}
+      </div>
     </>
   );
 }
