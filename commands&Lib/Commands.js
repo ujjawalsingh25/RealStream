@@ -13,6 +13,7 @@
     // npx shadcn@latest init        -->> Run the CLI                   |
     // npm install next-themes       -->> themes for Dark Mode          |
     // npx shadcn@latest add input       -->> UI                        |
+    // npx shadcn@latest add tooltip       -->> Hints adding            |
     // npx shadcn@latest add [component]    -->> Components             |
 // _____________________________________________________________________|
 
@@ -66,3 +67,7 @@
 // ___________________________________________________________________________________|
 
 // npm i query-string
+
+// npm i zustand
+
+// npm i usehooks-ts
