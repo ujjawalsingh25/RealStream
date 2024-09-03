@@ -1,8 +1,8 @@
 // __________________________  To Push Codes  ____________________________________________________
 // _____________________________________________________________________________________________|_|
 //  -->>  git init                                                                              | |
-//  -->>  git status                                                                            | |
 //  -->>  git add .                                                                             | |
+//  -->>  git status                                                                            | |
 //  -->>  git commit -m "Commits"                                                               | |
 //  -->>  git branch -M main                                                                    | |
 //  -->>  git remote add origin https://github.com/ujjawalsingh25/RealStream.git                | |
