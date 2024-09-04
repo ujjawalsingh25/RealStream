@@ -39,8 +39,9 @@
 // npx prisma init                                                                                          |
 // npx prisma db pull       // X //    -->> If DB and tables are created in MySQL serverWorkbench.          |
 //                                  -->> It turn your database schema into a Prisma schema                  |
-// npx prisma db push                                                                                       |
+//          ----   To push new schema  ------                                                               |
 // npx prisma generate                                                                                      |
+// npx prisma db push                                                                                       |
 // npx prisma studio          -->> *** To host DB to the WebServer                                          |
 // _________________________________________________________________________________________________________|
 
@@ -76,3 +77,5 @@
 // npm i zustand
 
 // npm i usehooks-ts
+
+// npm i sonner

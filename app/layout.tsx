@@ -12,6 +12,7 @@
 
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { Toaster } from "sonner";
 import "./globals.css";
 // Clerk NextJS for Authentication Dashboard
 import { ClerkProvider, SignInButton, SignedIn, SignedOut, UserButton } from '@clerk/nextjs'
@@ -43,13 +44,8 @@ export default function RootLayout({
               storageKey="RealStream-theme"
               disableTransitionOnChange
             >
-            {/* <SignedOut>
-              <SignInButton />
-            </SignedOut>
-            <SignedIn>
-              <UserButton />
-            </SignedIn> */}
-            {children}
+              <Toaster theme="light" position="bottom-center"/>
+              {children}
           </ThemeProvider>
         </body>
       </html>

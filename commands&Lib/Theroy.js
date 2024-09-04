@@ -4,6 +4,9 @@
 //               -->>  like http://localhost:3000/folder where folder is the Client Route          |
 // route.tsx / route.jsx are used to create API Route                                              |
 //               -->>  {"foo": "bar"} API inside the 'localhost:3000//folder' pager                |
+//                                                                                                 |
+// "[]"  -->>  Square brackets of folder name indicates the Routes this is dynamic Part of url     |
+//           which is not hardcoded so inside the page.tsx of this folder we can access the url    |
 // ________________________________________________________________________________________________|
 
 
