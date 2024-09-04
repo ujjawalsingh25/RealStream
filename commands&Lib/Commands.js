@@ -12,9 +12,14 @@
 //                                                                      |
     // npx shadcn@latest init        -->> Run the CLI                   |
     // npm install next-themes       -->> themes for Dark Mode          |
-    // npx shadcn@latest add input       -->> UI                        |
-    // npx shadcn@latest add tooltip       -->> Hints adding            |
+//      -------   Add Components using shadcn  --------------           | 
     // npx shadcn@latest add [component]    -->> Components             |
+    // npx shadcn@latest add input         -->> UI                      |
+    // npx shadcn@latest add tooltip       -->> Hints adding            |
+    // npx shadcn@latest add avatar        -->> Avatar                  |
+    // npx shadcn@latest add skeleton      -->> Skeleton/LayoutModel    |
+//    ------------------------------------------------------------------|
+    // npm install next-themes       -->> themes for Dark Mode          |
 // _____________________________________________________________________|
 
 
