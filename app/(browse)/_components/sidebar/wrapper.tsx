@@ -6,6 +6,7 @@ import { cn } from "@/lib/utils";
 import { useSidebar } from "@/store/use-sidebar";
 import { ToggleSkeleton } from "./toggle";
 import { RecommendedSkeleton } from "./recommended";
+import { FollowingSkeleton } from "./following";
 
 interface WrapperProps {
     children: React.ReactNode;
@@ -30,7 +31,8 @@ export const Wrapper = ( {children,} : WrapperProps) => {
                 <aside className="fixed left-0 flex flex-col w-[70px] lg:w-60 h-full 
                 bg-background border-r border-[#2D2E35] z-50 mt-3">
                     <ToggleSkeleton />              {/*Since in below collapse is client-side Rendering*/}
-                    <RecommendedSkeleton />  {/* So added both Skeletons(Layout while Reloading) only for ServerSide Rendering */}
+                    <FollowingSkeleton />        {/* So added all three Skeletons(Layout while Reloading) */}
+                    <RecommendedSkeleton />          {/*only for ServerSide Rendering */}
                 </aside>
         );
     }
