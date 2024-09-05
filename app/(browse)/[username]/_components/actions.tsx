@@ -1,18 +1,22 @@
 "use client";
 
-import { useTransition } from "react";
+import { useState, useTransition } from "react";
 import { toast } from "sonner";
 
-import { onFollow, onUnfollow } from "@/actions/follow";
+import { onBlock, onUnblock } from "@/actions/block";
 import { Button } from "@/components/ui/button";
+import { onFollow, onUnfollow } from "@/actions/follow";
+
 
 interface ActionsProps {
     isFollowing: boolean;
     userId: string;
+    isBlocked: boolean;
 };
 
-export const Actions = ({isFollowing, userId,}: ActionsProps) => {
+export const Actions = ({isFollowing, userId, isBlocked: initialBlocked }: ActionsProps) => {
     const [isPending, startTransition] = useTransition();
+    const [isBlocked, setIsBlocked] = useState(initialBlocked);
 
     const handleFollow = () => {
         startTransition(() => {    
@@ -37,13 +41,47 @@ export const Actions = ({isFollowing, userId,}: ActionsProps) => {
         }
     }
 
+    const handleBlock = () => {
+        startTransition(() => {
+            onBlock(userId)
+                .then((data) => {
+                    toast.success(`Blocked user ${data.blocked.username}`);
+                    setIsBlocked(true);
+                })
+                .catch(() => toast.error("Something went wrong"));
+        });
+    };
+    const handleUnblock = () => {
+        startTransition(() => {
+            onUnblock(userId)
+                .then((data) => {
+                    toast.success(`Unblocked user ${data.blocked.username}`);
+                    setIsBlocked(false);
+                })
+                .catch(() => toast.error("Something went wrong"));
+        });
+    };
+    
+    const blockToggle = () => {
+        if (isBlocked) {
+            handleUnblock();
+        } else {
+            handleBlock();
+        }
+    };
+    
     return (
-        <Button 
-            disabled={isPending} 
-            onClick={onClick} 
-            variant="primary"
-        >
-            {isFollowing ? "Unfollow" : "Follow" }
-        </Button>
+        <>
+            <Button 
+                disabled={isPending} 
+                onClick={onClick} 
+                variant="primary"
+                >
+                {isFollowing ? "Unfollow" : "Follow" }
+            </Button>
+            <Button onClick={blockToggle} disabled={isPending}>
+                {isBlocked ? "Unblock" : "Block"}
+            </Button>
+        </>
     );
 };
