@@ -43,6 +43,7 @@
 // npx prisma generate                                                                                      |
 // npx prisma db push                                                                                       |
 // npx prisma studio          -->> *** To host DB to the WebServer                                          |
+// npx prisma migrate reset       -->> Reset all existing data from db                                      |
 // _________________________________________________________________________________________________________|
 
 
