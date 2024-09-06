@@ -71,6 +71,15 @@
 // ___________________________________________________________________________|
 
 
+// _____________________   LiveKit   _________________
+// Livekit   -->>  For Streaming WHMP                 |
+//                                                    |
+//    npm install @livekit/components-react@^1.4.2    |
+//    npm install livekit-client@^1.15.4              |
+//    npm install livekit-server-sdk@^1.2.7           |
+// ___________________________________________________|
+
+
 // ___________________________________________________________________________________
 // SVIX  -->> Provide a package for verifying the webhook signature,                  |
 //          -->> making it easy to verify the Authencity of the weebhook events       |
