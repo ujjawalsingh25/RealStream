@@ -18,6 +18,7 @@
     // npx shadcn@latest add tooltip       -->> Hints adding            |
     // npx shadcn@latest add avatar        -->> Avatar                  |
     // npx shadcn@latest add skeleton      -->> Skeleton/LayoutModel    |
+    // npx shadcn@latest add switch        -->> Toggle / Switching      |
 //    ------------------------------------------------------------------|
     // npm install next-themes       -->> themes for Dark Mode          |
 // _____________________________________________________________________|
@@ -72,6 +73,9 @@
 //      npm install svix                                                              |
 //                                                                                    |
 // ___________________________________________________________________________________|
+
+//  Toast -->> give very cool alert type message in below
+//   -->> import { toast } from "sonner";   
 
 // npm i query-string
 
