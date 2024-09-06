@@ -19,6 +19,10 @@
     // npx shadcn@latest add avatar        -->> Avatar                  |
     // npx shadcn@latest add skeleton      -->> Skeleton/LayoutModel    |
     // npx shadcn@latest add switch        -->> Toggle / Switching      |
+    // npx shadcn@latest add skeleton      -->> Skeleton/LayoutModel    |
+    // npx shadcn@latest add dialog        -->> Dialogs                 |
+    // npx shadcn@latest add select        -->> Select                  |
+    // npx shadcn@latest add alert         -->> Alert                   |
 //    ------------------------------------------------------------------|
     // npm install next-themes       -->> themes for Dark Mode          |
 // _____________________________________________________________________|
