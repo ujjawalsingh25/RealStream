@@ -20,6 +20,7 @@
     // npx shadcn@latest add skeleton      -->> Skeleton/LayoutModel    |
     // npx shadcn@latest add switch        -->> Toggle / Switching      |
     // npx shadcn@latest add skeleton      -->> Skeleton/LayoutModel    |
+    // npx shadcn@latest add slider        -->> Slider                  |
     // npx shadcn@latest add dialog        -->> Dialogs                 |
     // npx shadcn@latest add select        -->> Select                  |
     // npx shadcn@latest add alert         -->> Alert                   |
@@ -103,3 +104,5 @@
 
 // npm i uuid
 // npm i -D @types/uuid
+
+// npm install react-loading-indicators       // Loader 
