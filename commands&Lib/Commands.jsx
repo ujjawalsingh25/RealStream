@@ -98,3 +98,8 @@
 // npm i usehooks-ts
 
 // npm i sonner
+
+// npm i jwt-decode
+
+// npm i uuid
+// npm i -D @types/uuid
