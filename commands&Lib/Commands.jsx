@@ -71,13 +71,14 @@
 // ___________________________________________________________________________|
 
 
-// _____________________   LiveKit   _________________
-// Livekit   -->>  For Streaming WHMP                 |
-//                                                    |
-//    npm install @livekit/components-react@^1.4.2    |
-//    npm install livekit-client@^1.15.4              |
-//    npm install livekit-server-sdk@^1.2.7           |
-// ___________________________________________________|
+// _____________________   LiveKit   _______________________________________
+// Livekit   -->>  For Streaming WHIP (LiveKit Ingress lets you import      |
+//                  video from another source into a LiveKit room)          |
+//                                                                          |
+//    npm install @livekit/components-react@^1.4.2                          |
+//    npm install livekit-client@^1.15.4                                    |
+//    npm install livekit-server-sdk@^1.2.7                                 |
+// _________________________________________________________________________|
 
 
 // ___________________________________________________________________________________
