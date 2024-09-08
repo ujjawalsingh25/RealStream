@@ -21,8 +21,10 @@
     // npx shadcn@latest add switch        -->> Toggle / Switching      |
     // npx shadcn@latest add skeleton      -->> Skeleton/LayoutModel    |
     // npx shadcn@latest add slider        -->> Slider                  |
+    // npx shadcn@latest add separator      -->> Separator              |
     // npx shadcn@latest add scroll-area   -->> Scroll-Area             |
     // npx shadcn@latest add dialog        -->> Dialogs                 | 
+    // npx shadcn@latest add label          -->> Label                  | 
     // npx shadcn@latest add select        -->> Select                  |
     // npx shadcn@latest add alert         -->> Alert                   |
 //    ------------------------------------------------------------------|
@@ -80,6 +82,13 @@
 //    npm install @livekit/components-react@^1.4.2                          |
 //    npm install livekit-client@^1.15.4                                    |
 //    npm install livekit-server-sdk@^1.2.7                                 |
+// _________________________________________________________________________|
+
+
+// _____________________   UploadThing   ___________________________________
+// UploadThing   -->>                                                       |
+//                                                                          |
+//    npm install uploadthing @uploadthing/react                            |
 // _________________________________________________________________________|
 
 
