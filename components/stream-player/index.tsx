@@ -7,9 +7,10 @@ import { cn  } from "@/lib/utils";
 import { useChatSidebar } from "@/store/use-chat-sidebar";
 import { useViewerToken } from "@/hooks/use-viewer-token";
 
-import { Video, VideoSkeleton } from "./video";
-import { Chat, ChatSkeleton } from "./chat";
 import { ChatToggle } from "./chat-toggle";
+import { Chat, ChatSkeleton } from "./chat";
+import { Video, VideoSkeleton } from "./video";
+import { Header, HeaderSkeleton } from "./header";
 
 interface StreamPLayerProps {
     user: User & { stream: Stream | null };
@@ -47,6 +48,14 @@ export const StreamPLayer = ({user, stream, isFollowing,}: StreamPLayerProps) =>
                         hostName={user.username}
                         hostIdentity={user.id}
                     />
+                    <Header 
+                        hostName={user.username}
+                        hostIdentity={user.id}
+                        viewerIdentity={identity}
+                        imageUrl={user.imageUrl}
+                        isFollowing={isFollowing}
+                        name={stream.name}
+                    />
                 </div>
                 <div className={cn(
                     "col-span-1 lg:col-span-1 xl:col-span-1 2xl:col-span-2",
@@ -75,7 +84,7 @@ export const StreamPlayerSkeleton = () => {
             <div className="space-y-4 col-span-1 lg:col-span-2 xl:col-span-2 
                 2xl:col-span-4 lg:overflow-y-auto hidden-scrollbar pb-10">
                     <VideoSkeleton />
-                    {/* TODO: Header Skeleton */}
+                    <HeaderSkeleton />
             </div>
             <div className="col-span-1 2xl:col-span-2 bg-background">
                 <ChatSkeleton />
