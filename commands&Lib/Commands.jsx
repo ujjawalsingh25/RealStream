@@ -25,6 +25,7 @@
     // npx shadcn@latest add scroll-area   -->> Scroll-Area             |
     // npx shadcn@latest add dialog        -->> Dialogs                 | 
     // npx shadcn@latest add label          -->> Label                  | 
+    // npx shadcn@latest add textarea          -->> Textarea            | 
     // npx shadcn@latest add select        -->> Select                  |
     // npx shadcn@latest add alert         -->> Alert                   |
 //    ------------------------------------------------------------------|
