@@ -25,11 +25,11 @@ export const ResultCard =({data,}: ResultCardProps) => {
                     isLive={data.isLive}
                     username={data.user.username}
                 />
-                {data.isLive && (
+                {/* {data.isLive && (
                     <div className="">
                         <LiveBadge />
                     </div>
-                )}
+                )} */}
                 <div className="flex gap-x-3">
                     <UserAvatar
                         username={data.user.username}
