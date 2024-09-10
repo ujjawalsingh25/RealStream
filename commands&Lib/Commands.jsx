@@ -29,6 +29,10 @@
     // npx shadcn@latest add select        -->> Select                  |
     // npx shadcn@latest add alert         -->> Alert                   |
 //    ------------------------------------------------------------------|
+//      -----  Data Table  ----------                                   |
+    //  npx shadcn@latest add table                                     |
+    //  npm install @tanstack/react-table                               |
+//    ------------------------------------------------------------------|
     // npm install next-themes       -->> themes for Dark Mode          |
 // _____________________________________________________________________|
 

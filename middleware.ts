@@ -5,7 +5,8 @@ export default authMiddleware({     // In future it might not work so use clerkM
     "/",
     "/api/webhooks(.*)",
     "/api/uploadthing",
-    "/:username"
+    "/:username",
+    "/search",
   ],
 })
 
