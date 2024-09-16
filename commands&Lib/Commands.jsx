@@ -28,6 +28,7 @@
     // npx shadcn@latest add textarea          -->> Textarea            | 
     // npx shadcn@latest add select        -->> Select                  |
     // npx shadcn@latest add alert         -->> Alert                   |
+    // npx shadcn@latest add card         -->> Card                     |
 //    ------------------------------------------------------------------|
 //      -----  Data Table  ----------                                   |
     //  npx shadcn@latest add table                                     |
@@ -124,3 +125,7 @@
 
 // npm i date-fns
 // npm install react-icons
+
+//  npm i @zegocloud/zego-uikit-prebuilt
+
+// npm i uuid
