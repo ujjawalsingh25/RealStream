@@ -123,3 +123,4 @@
 // npm install react-loading-indicators       // Loader 
 
 // npm i date-fns
+// npm install react-icons
