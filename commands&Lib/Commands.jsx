@@ -105,6 +105,8 @@
 //                                                                                    |
 // ___________________________________________________________________________________|
 
+
+// _______________________________________________________________________
 //  Toast -->> give very cool alert type message in below
 //   -->> import { toast } from "sonner";   
 
@@ -129,3 +131,12 @@
 //  npm i @zegocloud/zego-uikit-prebuilt
 
 // npm i uuid
+// _______________________________________________________________________
+
+
+
+// ________________  Aceternity UI  ____________________________________________________________________
+// npm i framer-motion clsx tailwind-merge                                                              |
+// npm i tailwindcss-animate                                                                            |
+// npm i framer-motion clsx tailwind-merge @tsparticles/react @tsparticles/engine @tsparticles/slim     |
+// _____________________________________________________________________________________________________|
