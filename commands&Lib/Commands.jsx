@@ -139,4 +139,6 @@
 // npm i framer-motion clsx tailwind-merge                                                              |
 // npm i tailwindcss-animate                                                                            |
 // npm i framer-motion clsx tailwind-merge @tsparticles/react @tsparticles/engine @tsparticles/slim     |
+//                                                                                                      |
+// npm i @tabler/icons-react                                                                            |
 // _____________________________________________________________________________________________________|

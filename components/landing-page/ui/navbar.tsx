@@ -30,13 +30,13 @@ const Navbar = async (props: Props) => {
                     <Link href='#'>Technologies</Link>
                 </li>
                 <li>
-                    <Link href='#'>Features</Link>
+                    <Link href='#'>Libraries</Link>
                 </li>
                 <li>
                     <Link href='#'>Feedback</Link>
                 </li>
                 <li>
-                    <Link href='#'>Documentation</Link>
+                    <Link href='#'>Contacts</Link>
                 </li>
             </ul>
         </nav>

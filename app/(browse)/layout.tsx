@@ -4,6 +4,7 @@ import { currentUser } from "@clerk/nextjs/server";
 import { Container } from "./_components/container";
 import { Navbar } from "./_components/navbar";
 import { Sidebar, SidebarSkeleton } from "./_components/sidebar";
+import { ContainerLanding } from "./_components/container-LandingPage";
 
 const BrowseLayout = async ({children,}: {children: React.ReactNode;}) => {
     const user = await currentUser();
@@ -24,9 +25,9 @@ const BrowseLayout = async ({children,}: {children: React.ReactNode;}) => {
                         </div>
                     </>
                 ): (
-                    <Container>
+                    <ContainerLanding>
                         {children}
-                    </Container>
+                    </ContainerLanding>
                 )
             }
         </>
